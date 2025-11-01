@@ -1,0 +1,37 @@
+title,price_raw,price,link,scrape_ts
+Acme Phone X,$284.09,284.09,https://example.com,2025-07-23T14:52:17.460955
+Acme Phone X,$275.74,275.74,https://example.com,2025-07-30T14:52:17.460955
+Acme Phone X,$280.98,280.98,https://example.com,2025-08-06T14:52:17.460955
+Acme Phone X,$268.27,268.27,https://example.com,2025-08-13T14:52:17.460955
+Acme Phone X,$284.46,284.46,https://example.com,2025-08-20T14:52:17.460955
+Acme Phone X,$283.65,283.65,https://example.com,2025-08-27T14:52:17.460955
+Acme Phone X,$267.75,267.75,https://example.com,2025-09-03T14:52:17.460955
+Acme Phone X,$261.45,261.45,https://example.com,2025-09-10T14:52:17.460955
+Acme Phone X,$276.27,276.27,https://example.com,2025-09-17T14:52:17.460955
+Acme Phone X,$267.24,267.24,https://example.com,2025-09-24T14:52:17.460955
+Acme Phone X,$277.39,277.39,https://example.com,2025-10-01T14:52:17.460955
+Acme Phone X,$286.13,286.13,https://example.com,2025-10-08T14:52:17.460955
+Acme Phone X Case,$120.89,120.89,https://example.com,2025-07-23T14:52:17.460955
+Acme Phone X Case,$132.6,132.6,https://example.com,2025-07-30T14:52:17.460955
+Acme Phone X Case,$125.23,125.23,https://example.com,2025-08-06T14:52:17.460955
+Acme Phone X Case,$120.07,120.07,https://example.com,2025-08-13T14:52:17.460955
+Acme Phone X Case,$136.13,136.13,https://example.com,2025-08-20T14:52:17.460955
+Acme Phone X Case,$133.98,133.98,https://example.com,2025-08-27T14:52:17.460955
+Acme Phone X Case,$126.65,126.65,https://example.com,2025-09-03T14:52:17.460955
+Acme Phone X Case,$119.37,119.37,https://example.com,2025-09-10T14:52:17.460955
+Acme Phone X Case,$142.2,142.2,https://example.com,2025-09-17T14:52:17.460955
+Acme Phone X Case,$129.74,129.74,https://example.com,2025-09-24T14:52:17.460955
+Acme Phone X Case,$114.59,114.59,https://example.com,2025-10-01T14:52:17.460955
+Acme Phone X Case,$122.89,122.89,https://example.com,2025-10-08T14:52:17.460955
+Acme Wireless Earbuds,$95.18,95.18,https://example.com,2025-07-23T14:52:17.460955
+Acme Wireless Earbuds,$78.46,78.46,https://example.com,2025-07-30T14:52:17.460955
+Acme Wireless Earbuds,$91.21,91.21,https://example.com,2025-08-06T14:52:17.460955
+Acme Wireless Earbuds,$97.07,97.07,https://example.com,2025-08-13T14:52:17.460955
+Acme Wireless Earbuds,$87.9,87.9,https://example.com,2025-08-20T14:52:17.460955
+Acme Wireless Earbuds,$88.25,88.25,https://example.com,2025-08-27T14:52:17.460955
+Acme Wireless Earbuds,$71.05,71.05,https://example.com,2025-09-03T14:52:17.460955
+Acme Wireless Earbuds,$82.84,82.84,https://example.com,2025-09-10T14:52:17.460955
+Acme Wireless Earbuds,$89.21,89.21,https://example.com,2025-09-17T14:52:17.460955
+Acme Wireless Earbuds,$82.87,82.87,https://example.com,2025-09-24T14:52:17.460955
+Acme Wireless Earbuds,$87.6,87.6,https://example.com,2025-10-01T14:52:17.460955
+Acme Wireless Earbuds,$101.09,101.09,https://example.com,2025-10-08T14:52:17.460955
