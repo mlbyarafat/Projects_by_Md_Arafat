@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    env_file: .env
+    depends_on:
+      - db
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: changeme
+      POSTGRES_DB: appdb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+volumes:
+  pgdata:
