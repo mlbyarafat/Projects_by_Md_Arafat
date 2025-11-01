@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Excel Summary Report</title>
+    <style>
+      /* Global Styles */
+      body {
+        font-family: 'Inter', Arial, sans-serif;
+        background: linear-gradient(135deg, #F8F7F4, #E8E3D9);
+        color: #2E1A47;
+        line-height: 1.5;
+        padding: 40px;
+        margin: 0;
+      }
+
+      /* Container */
+      .report-container {
+        background: #FFFFFF;
+        max-width: 900px;
+        margin: 0 auto;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+        padding: 30px 40px;
+      }
+
+      /* Header */
+      .header {
+        border-bottom: 2px solid #4C3575;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+      }
+
+      .header h2 {
+        color: #2E1A47;
+        font-size: 1.8em;
+        margin: 0;
+      }
+
+      .header p {
+        color: #5C5470;
+        font-size: 0.95em;
+        margin-top: 5px;
+      }
+
+      /* Table */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+        font-size: 0.95em;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      th, td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #4C3575;
+        color: #FFFFFF;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #F9F9FB;
+      }
+
+      tr:hover {
+        background-color: #EEEAF6;
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        font-size: 0.9em;
+        color: #5C5470;
+        margin-top: 25px;
+        padding-top: 10px;
+        border-top: 1px solid #DDD;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="report-container">
+      <div class="header">
+        <h2>Excel Summary Report</h2>
+        <p>Generated automatically.</p>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Metric</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for k, v in summary.items() %}
+          <tr>
+            <td>{{ k }}</td>
+            <td>{{ v }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <footer>
+      Generated with precision and care.
+    </footer>
+  </body>
+</html>
